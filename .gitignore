@@ -4,3 +4,9 @@
 config.local.json
 wallet*
 *.keystore
+
+# Données locales du mineur : ne jamais publier le portefeuille ni le binaire
+primo/config.json
+primo/primo-arm-miner
+primo/*.tar.gz
+primo/SHA256SUMS
